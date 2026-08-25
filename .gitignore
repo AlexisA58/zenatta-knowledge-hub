@@ -1,7 +1,11 @@
 .DS_Store
 node_modules
 /dist
+# vue.config.js sets outputDir to 'app' — this is the real build output, /dist above is unused
+/app
 
+# Claude Code local project files
+.claude
 
 # local env files
 .env.local
